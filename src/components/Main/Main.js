@@ -12,7 +12,7 @@ export default function Main() {
           key={animal.type}
           image={animal.image}
           name={animal.name}
-          sound={animal.says}
+          says={animal.says}
           top={animal.top}
           left={animal.left}
         />
