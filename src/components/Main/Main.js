@@ -10,7 +10,7 @@ export default function Main() {
       {animals.map((animal) => (
         <Animal
           key={animal.type}
-          image={animal.image}
+          image={animal.type}
           name={animal.name}
           says={animal.says}
           top={animal.top}
